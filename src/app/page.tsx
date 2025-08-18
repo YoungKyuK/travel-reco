@@ -155,7 +155,7 @@ const HomePageContent: React.FC = () => {
           priority // 메인 페이지 로딩 시 우선 로드
           className="z-0"
         />
-        {/* 오버레이 (텍스트 가독성 향상) */}
+        {/* 오버레이 (텍스트 가독성 향상)*/}
         <div className="absolute inset-0 from-black/60 to-transparent z-10"></div>
 
         <div className="z-20 relative">
