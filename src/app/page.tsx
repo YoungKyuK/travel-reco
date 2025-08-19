@@ -145,7 +145,7 @@ const HomePageContent: React.FC = () => {
     <div className="container mx-auto px-6 py-8">
       {/* 히어로 섹션 */}
       <section className="hero-section h-96 rounded-xl flex items-center justify-center text-white text-center p-4 relative overflow-hidden">
-        {/* 배경 이미지 */}
+        {/* 배경 이미지!! */}
         <Image
           src="/images/main-bg.jpg"
           alt="여행 배경 이미지"
