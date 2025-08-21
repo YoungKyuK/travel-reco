@@ -145,7 +145,7 @@ const HomePageContent: React.FC = () => {
     <div className="container mx-auto px-6 py-8">
       {/* 히어로 섹션 */}
       <section className="hero-section h-96 rounded-xl flex items-center justify-center text-white text-center p-4 relative overflow-hidden">
-        {/* 배경 이미지!! */}
+        {/* 배경 이미지 */}
         <Image
           src="/images/main-bg.jpg"
           alt="여행 배경 이미지"
@@ -159,7 +159,6 @@ const HomePageContent: React.FC = () => {
         <div className="absolute inset-0 from-black/60 to-transparent z-10"></div>
 
         <div className="z-20 relative">
-          {" "}
           {/* 텍스트와 검색바를 오버레이 위에 배치 */}
           <h1 className="text-5xl font-bold mb-4 drop-shadow-lg">
             당신을 위한 완벽한 여행지를 찾아보세요!

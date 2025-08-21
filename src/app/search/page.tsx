@@ -18,7 +18,7 @@ const allDestinations: Destination[] = [
     theme: "자연",
     description:
       "화산섬 제주는 독특한 자연 경관과 아름다운 해변, 그리고 맛있는 음식으로 가득합니다. 한라산 등반, 올레길 걷기 등 다양한 액티비티를 즐길 수 있습니다.",
-    image: "/images/jeju.jpg",
+    image: "/images/nature.jpg",
     rating: 4.8,
     reviews: [
       { rating: 5, text: "최고의 여행지!" },
@@ -33,7 +33,7 @@ const allDestinations: Destination[] = [
     theme: "역사",
     description:
       "일본의 옛 수도인 교토는 수많은 사원과 신사, 그리고 전통적인 목조 가옥들이 보존되어 있는 역사적인 도시입니다. 기모노를 입고 거리를 거닐어보세요.",
-    image: "/images/kyoto.jpg",
+    image: "/images/history.jpg",
     rating: 4.7,
     reviews: [
       { rating: 5, text: "고즈넉하고 아름다워요." },
@@ -47,7 +47,7 @@ const allDestinations: Destination[] = [
     theme: "문화",
     description:
       "예술과 낭만의 도시 파리. 에펠탑, 루브르 박물관 등 세계적인 명소와 함께 센 강변의 여유로운 분위기를 만끽할 수 있습니다.",
-    image: "/images/paris.jpg",
+    image: "/images/culture.jpg",
     rating: 4.9,
     reviews: [
       { rating: 5, text: "꿈에 그리던 도시!" },
@@ -61,7 +61,7 @@ const allDestinations: Destination[] = [
     theme: "역사",
     description:
       "신라의 천년 고도 경주는 도시 전체가 거대한 박물관입니다. 불국사, 석굴암, 첨성대 등 수많은 유적지를 탐방하며 역사의 숨결을 느껴보세요.",
-    image: "/images/gyeongju.jpg",
+    image: "/images/history.jpg",
     rating: 4.6,
     reviews: [
       { rating: 5, text: "역사를 좋아한다면 필수 코스." },
@@ -75,7 +75,7 @@ const allDestinations: Destination[] = [
     theme: "미식",
     description:
       "활기 넘치는 도시 방콕은 저렴하고 맛있는 길거리 음식부터 고급 레스토랑까지, 미식가들을 위한 천국입니다. 화려한 왕궁과 사원도 놓치지 마세요.",
-    image: "/images/bangkok.jpg",
+    image: "/images/food.webp",
     rating: 4.5,
     reviews: [
       { rating: 4, text: "음식이 정말 다양하고 맛있어요." },
@@ -89,7 +89,7 @@ const allDestinations: Destination[] = [
     theme: "액티비티",
     description:
       "알프스의 심장, 인터라켄에서 패러글라이딩, 스카이다이빙 등 짜릿한 액티비티를 즐겨보세요. 융프라우의 설경은 평생 잊지 못할 경험을 선사합니다.",
-    image: "/images/interlaken.jpg",
+    image: "/images/activity.jpg",
     rating: 4.9,
     reviews: [
       { rating: 5, text: "인생 최고의 경험!" },
