@@ -137,7 +137,7 @@ const SearchPage: React.FC = () => {
   // --- 데이터 흐름: URL 쿼리 파라미터 -> 초기 필터 상태 설정 ---
   // URL에서 'q' (검색어) 파라미터를 가져오거나 없으면 빈 문자열로 초기화
   const initialSearchQuery = searchParams.get("q") || "";
-  // URL에서 'theme' 파라미터를 가져오거나 없으면 null
+  // URL에서 'theme' 파라미터를 가져오거나 없으면 null!
   const initialTheme = searchParams.get("theme");
 
   // 필터 상태를 관리하는 useState 훅. URL 파라미터로 초기값을 설정합니다.
