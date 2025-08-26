@@ -162,7 +162,7 @@ const SearchPage: React.FC = () => {
 
   // --- 데이터 흐름: allDestinations + filters -> filteredDestinations ---
   // useMemo 훅을 사용하여 필터링된 여행지 목록을 효율적으로 계산합니다.
-  // filters 상태가 변경될 때만 이 로직이 다시 실행되어 성능을 최적화합니다.
+  // filters 상태가 변경될 때만 이 로직이 다시 실행되어 성능을 최적화합니다//
   const filteredDestinations = useMemo(() => {
     const filtered = allDestinations.filter((dest) => {
       // 1. 검색어 필터링: 여행지 이름, 지역, 설명에 검색어가 포함되어 있는지 확인
