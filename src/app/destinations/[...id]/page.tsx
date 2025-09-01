@@ -1,5 +1,5 @@
 const Destination = () => {
-  return <div>Des</div>;
+  return <div>Destination</div>;
 };
 
 export default Destination;

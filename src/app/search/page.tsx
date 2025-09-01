@@ -134,7 +134,7 @@ const SearchPage: React.FC = () => {
   const router = useRouter(); // 페이지 이동을 위한 useRouter 훅
   const searchParams = useSearchParams(); // URL 쿼리 파라미터(예: ?q=제주도&theme=자연)를 읽기 위한 훅
 
-  // --- 데이터 흐름: URL 쿼리 파라미터 -> 초기 필터 상태 설정 ---
+  // --- 데이터 흐름: URL 쿼리 파라미터 -> 초기 필터 상태 설정.. ---
   // URL에서 'q' (검색어) 파라미터를 가져오거나 없으면 빈 문자열로 초기화
   const initialSearchQuery = searchParams.get("q") || "";
   // URL에서 'theme' 파라미터를 가져오거나 없으면 null!

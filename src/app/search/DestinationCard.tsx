@@ -3,7 +3,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { Destination } from "../../../types/index"; // Destination 타입 임포트
+import { Destination } from "../../../types/index"; // Destination 타입 임포트..
 
 interface DestinationCardProps {
   destination: Destination;
